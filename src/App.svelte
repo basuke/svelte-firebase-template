@@ -2,7 +2,6 @@
     import WelcomeFirebase from './components/firebase-welcome.svelte';
 
     export let name;
-    export let app;
 
     const storage = firebase.storage();
     const firestore = firebase.firestore();
